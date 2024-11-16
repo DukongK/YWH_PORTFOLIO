@@ -965,6 +965,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 250px;
   }
   .p3boxr li {
     position: relative;
@@ -974,6 +975,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 250px;
   }
 
   /* page4 풀무원 */
@@ -3745,6 +3747,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 200px;
   }
   .p3boxr li {
     position: relative;
@@ -3754,6 +3757,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 200px;
   }
 
   /* page4 풀무원 */
