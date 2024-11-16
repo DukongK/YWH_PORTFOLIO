@@ -970,7 +970,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 180px;
   }
   .p3boxr li {
     position: relative;
@@ -980,7 +980,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 180px;
   }
 
   /* page4 풀무원 */
@@ -1190,7 +1190,7 @@
     transform: translate(-50%, -50%);
   }
   .p4_t2 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p4_t2.on {
     opacity: 1;
@@ -1207,7 +1207,7 @@
     transform: translate(-50%, -50%);
   }
   .p4_t3 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p4_t3.on {
     opacity: 1;
@@ -1471,7 +1471,7 @@
     transform: translate(-50%, -50%);
   }
   .p5_t2 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p5_t2.on {
     opacity: 1;
@@ -1488,7 +1488,7 @@
     transform: translate(-50%, -50%);
   }
   .p5_t3 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p5_t3.on {
     opacity: 1;
@@ -1752,7 +1752,7 @@
     transform: translate(-50%, -50%);
   }
   .p6_t2 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p6_t2.on {
     opacity: 1;
@@ -1769,7 +1769,7 @@
     transform: translate(-50%, -50%);
   }
   .p6_t3 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p6_t3.on {
     opacity: 1;
@@ -2035,7 +2035,7 @@
     transform: translate(-50%, -50%);
   }
   .p7_t2 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p7_t2.on {
     opacity: 1;
@@ -2052,7 +2052,7 @@
     transform: translate(-50%, -50%);
   }
   .p7_t3 h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .p7_t3.on {
     opacity: 1;
@@ -2301,7 +2301,7 @@
     background-image: url(../img/poster-3.jpg);
   }
   .p9_box4 {
-    background-image: url(../img/poster_1.jpg);
+    background-image: url(../img/poster_4.jpg);
   }
   .p9_box5 {
     background-image: url(../img/poster_2.jpg);
@@ -3978,7 +3978,7 @@
     transform: translate(-50%, -50%);
   }
   .p4_t2 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p4_t2.on {
     opacity: 1;
@@ -3995,7 +3995,7 @@
     transform: translate(-50%, -50%);
   }
   .p4_t3 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p4_t3.on {
     opacity: 1;
@@ -4259,7 +4259,7 @@
     transform: translate(-50%, -50%);
   }
   .p5_t2 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p5_t2.on {
     opacity: 1;
@@ -4276,7 +4276,7 @@
     transform: translate(-50%, -50%);
   }
   .p5_t3 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p5_t3.on {
     opacity: 1;
@@ -4540,7 +4540,7 @@
     transform: translate(-50%, -50%);
   }
   .p6_t2 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p6_t2.on {
     opacity: 1;
@@ -4557,7 +4557,7 @@
     transform: translate(-50%, -50%);
   }
   .p6_t3 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p6_t3.on {
     opacity: 1;
@@ -4823,7 +4823,7 @@
     transform: translate(-50%, -50%);
   }
   .p7_t2 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p7_t2.on {
     opacity: 1;
@@ -4840,7 +4840,7 @@
     transform: translate(-50%, -50%);
   }
   .p7_t3 h2 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .p7_t3.on {
     opacity: 1;
@@ -5089,7 +5089,7 @@
     background-image: url(../img/poster-3.jpg);
   }
   .p9_box4 {
-    background-image: url(../img/poster_1.jpg);
+    background-image: url(../img/poster_4.jpg);
   }
   .p9_box5 {
     background-image: url(../img/poster_2.jpg);
@@ -5347,7 +5347,7 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    transform: translateX(-100%) scale(3);
+    transform: translateX(-100%) scale(10);
     opacity: 0;
     transition: 0.4s ease-in;
     transition-delay: 0.5s;
@@ -5360,7 +5360,7 @@
     position: absolute;
     right: 0px;
     bottom: 0px;
-    transform: translateX(100%) scale(3);
+    transform: translateX(100%) scale(10);
     opacity: 0;
     transition: 0.4s ease-in;
     transition-delay: 0.5s;
@@ -7268,7 +7268,7 @@
   .p9_ul {
     height: 500px;
     display: flex;
-    gap: 150px;
+    /* gap: 150px; */
     overflow: hidden;
   }
   .p9_box1 {
@@ -7281,7 +7281,7 @@
     background-image: url(../img/poster-3.jpg);
   }
   .p9_box4 {
-    background-image: url(../img/poster_1.jpg);
+    background-image: url(../img/poster_4.jpg);
   }
   .p9_box5 {
     background-image: url(../img/poster_2.jpg);
@@ -7290,8 +7290,8 @@
     background-image: url(../img/poster-3.jpg);
   }
   .p9_ul li > div {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
