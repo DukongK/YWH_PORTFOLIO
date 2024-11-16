@@ -16,6 +16,8 @@ body,
 html {
   width: 100%;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
 /* body {
