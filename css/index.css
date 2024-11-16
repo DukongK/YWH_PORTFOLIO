@@ -6006,13 +6006,13 @@
   .visual_txt {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
   }
   .visual_txt h2 {
-    font-size: 2rem;
+    font-size: 25px;
     color: transparent;
     background-image: linear-gradient(to left, red, orange);
     background-clip: text;
@@ -6030,7 +6030,7 @@
     bottom: -5px;
   }
   .me {
-    width: 350px;
+    width: 300px;
   }
 
   /* scroll */
