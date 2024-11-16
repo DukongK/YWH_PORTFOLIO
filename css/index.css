@@ -219,7 +219,7 @@
     position: fixed;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     height: 80px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
     box-sizing: border-box;
     z-index: 20;
     transition: 1s;
@@ -681,6 +681,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
+    font-family: "Julius Sans One", sans-serif;
   }
   .con2_txt h2 {
     font-size: 40px;
@@ -725,6 +726,7 @@
     letter-spacing: 5px;
     margin-top: 30px;
     margin-bottom: 50px;
+    font-family: "Julius Sans One", sans-serif;
   }
 
   .color_box {
@@ -992,6 +994,7 @@
     opacity: 1;
   }
   .p4_main_txt p {
+    font-family: "Julius Sans One", sans-serif;
     color: red;
     letter-spacing: 3px;
     font-weight: bold;
@@ -3463,6 +3466,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
+    font-family: "Julius Sans One", sans-serif;
   }
   .con2_txt h2 {
     font-size: 40px;
@@ -3507,6 +3511,7 @@
     letter-spacing: 5px;
     margin-top: 30px;
     margin-bottom: 50px;
+    font-family: "Julius Sans One", sans-serif;
   }
 
   .color_box {
@@ -3778,6 +3783,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 20px;
+    font-family: "Julius Sans One", sans-serif;
   }
   .p4_main_txt h2 {
     font-size: 50px;
