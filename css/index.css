@@ -4111,7 +4111,7 @@
   }
   .p5_box1 {
     background-color: red;
-    width: 500px;
+    width: 400px;
     height: 100vh;
     position: absolute;
     left: 0px;
@@ -4124,11 +4124,11 @@
   }
   .p5_box2 {
     background-color: red;
-    width: 600px;
+    width: 500px;
     height: 100vh;
     position: absolute;
-    left: 200px;
-    transform: skew(30deg);
+    left: 100px;
+    transform: skew(20deg);
     transition: 1s;
   }
   .p5_box1.on {
@@ -4330,7 +4330,7 @@
 
   .p5_longbar {
     background-color: #000;
-    width: 700px;
+    width: 500px;
     height: 3px;
     /* position: absolute;
     left: 20%;
@@ -4396,7 +4396,7 @@
   }
   .p6_box1 {
     background-color: #d1d1d1;
-    width: 500px;
+    width: 400px;
     height: 100vh;
     position: absolute;
     right: 0px;
@@ -4404,11 +4404,11 @@
   }
   .p6_box2 {
     background-color: #d1d1d1;
-    width: 600px;
+    width: 500px;
     height: 100vh;
     position: absolute;
-    right: 200px;
-    transform: skew(-30deg);
+    right: 100px;
+    transform: skew(-20deg);
     transition: 1s;
   }
   .p6_box1.on {
@@ -4614,7 +4614,7 @@
 
   .p6_longbar {
     background-color: #000;
-    width: 700px;
+    width: 500px;
     height: 3px;
     /* position: absolute;
     left: 20%;
@@ -4680,7 +4680,7 @@
   }
   .p7_box1 {
     background-color: #f1f1f1;
-    width: 500px;
+    width: 400px;
     height: 100vh;
     position: absolute;
     left: 0px;
@@ -4688,11 +4688,11 @@
   }
   .p7_box2 {
     background-color: #f1f1f1;
-    width: 600px;
+    width: 500px;
     height: 100vh;
     position: absolute;
-    left: 200px;
-    transform: skew(30deg);
+    left: 100px;
+    transform: skew(20deg);
     transition: 1s;
   }
   .p7_box1.on {
@@ -4894,7 +4894,7 @@
 
   .p7_longbar {
     background-color: #000;
-    width: 700px;
+    width: 500px;
     height: 3px;
     /* position: absolute;
     left: 20%;
