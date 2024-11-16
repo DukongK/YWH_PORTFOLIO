@@ -2709,7 +2709,7 @@
     transform: translateY(50px);
     transition: 1s;
     opacity: 0;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
   .tel.on {
     transform: translateY(0px);
@@ -3834,7 +3834,7 @@
 
   .p4_box1 {
     background-color: #222;
-    width: 500px;
+    width: 400px;
     height: 100vh;
     position: absolute;
     right: 0px;
@@ -3842,10 +3842,10 @@
   }
   .p4_box2 {
     background-color: #222;
-    width: 600px;
+    width: 700px;
     height: 100vh;
     position: absolute;
-    right: 200px;
+    right: 0px;
     transform: skew(-30deg);
     transition: 1s;
   }
@@ -5497,7 +5497,7 @@
     transform: translateY(50px);
     transition: 1s;
     opacity: 0;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
   .tel.on {
     transform: translateY(0px);
@@ -7691,7 +7691,7 @@
     transform: translateY(50px);
     transition: 1s;
     opacity: 0;
-    transition-delay: 1.5s;
+    transition-delay: 2s;
   }
   .tel.on {
     transform: translateY(0px);
