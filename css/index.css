@@ -6533,6 +6533,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 50%;
   }
   .p3boxr li {
     position: relative;
@@ -7676,6 +7677,7 @@
 
   /* navi */
   #navi {
+    display: none;
     position: absolute;
     left: 30px;
     top: 50%;
