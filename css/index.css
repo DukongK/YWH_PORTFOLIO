@@ -7290,8 +7290,8 @@
     background-image: url(../img/poster-3.jpg);
   }
   .p9_ul li > div {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7301,14 +7301,14 @@
   .next {
     cursor: pointer;
     position: absolute;
-    right: 550px;
-    top: 100px;
+    right: 0px;
+    bottom: 0px;
   }
   .back {
     cursor: pointer;
     position: absolute;
-    left: 530px;
-    bottom: 10px;
+    left: 0px;
+    bottom: 0px;
   }
   /* p9 이미지view hover txt */
   .p9_bg {
