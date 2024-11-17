@@ -221,6 +221,7 @@
     height: 80px;
     backdrop-filter: blur(3px);
     box-sizing: border-box;
+    -webkit-backdrop-filter: blur(3px) !important;
     z-index: 20;
     transition: 1s;
   }
@@ -2449,7 +2450,7 @@
   /* con9 */
 
   .con9 {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -3000,7 +3001,8 @@
     position: fixed;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     height: 80px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px) !important;
     box-sizing: border-box;
     z-index: 20;
     transition: 1s;
@@ -5237,7 +5239,7 @@
   /* con9 */
 
   .con9 {
-    margin-top: 200px;
+    /* margin-top: 200px; */
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -5788,7 +5790,8 @@
     position: fixed;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     height: 80px;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px) !important;
     box-sizing: border-box;
     z-index: 20;
     transition: 1s;

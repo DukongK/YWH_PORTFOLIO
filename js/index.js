@@ -7,7 +7,7 @@ $(function () {
     // backdrop-filter: blur(6px);
     // 아래로 스크롤 조금 할 때 (if)배경 나타나고 위로 올리면 (else)배경 투명
     if (nav >= 2) {
-      $("header nav").css({ "backdrop-filter": "blur(3px)" });
+      // $("header nav").css({ "backdrop-filter": "blur(3px)" });
       $("header nav").css({ height: "100px" });
       $(".logo_w").css({ display: "none" });
       $(".red_line").addClass("on");
