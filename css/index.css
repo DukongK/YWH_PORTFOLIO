@@ -2186,23 +2186,14 @@
     display: none;
   }
   .p8_panel .bg1 {
-    background-image: url(../img/illust_img1.png);
+    background-image: url(../img/todo.png);
     display: block;
   }
   .p8_panel .bg2 {
-    background-image: url(../img/illust_img1_t2.png);
+    background-image: url(../img/day.png);
   }
   .p8_panel .bg3 {
-    background-image: url(../img/illust_img1_t3.png);
-  }
-  .p8_panel .bg4 {
-    background-image: url(../img/illust_img1.png);
-  }
-  .p8_panel .bg5 {
-    background-image: url(../img/illust_img1_t2.png);
-  }
-  .p8_panel .bg6 {
-    background-image: url(../img/illust_img1_t3.png);
+    background-image: url(../img/bingo.png);
   }
 
   /* p8 페이드 버튼 */
