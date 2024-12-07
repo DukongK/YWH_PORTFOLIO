@@ -2202,9 +2202,10 @@
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 100%;
     height: 50px;
     display: flex;
+    justify-content: center;
     gap: 10px;
     align-items: center;
     z-index: 10;
@@ -2212,7 +2213,7 @@
 
   .p8_button li {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 30px;
     height: 3px;
     transition: 0.5s;
@@ -4966,23 +4967,14 @@
     display: none;
   }
   .p8_panel .bg1 {
-    background-image: url(../img/illust_img1.png);
+    background-image: url(../img/todo.png);
     display: block;
   }
   .p8_panel .bg2 {
-    background-image: url(../img/illust_img1_t2.png);
+    background-image: url(../img/day.png);
   }
   .p8_panel .bg3 {
-    background-image: url(../img/illust_img1_t3.png);
-  }
-  .p8_panel .bg4 {
-    background-image: url(../img/illust_img1.png);
-  }
-  .p8_panel .bg5 {
-    background-image: url(../img/illust_img1_t2.png);
-  }
-  .p8_panel .bg6 {
-    background-image: url(../img/illust_img1_t3.png);
+    background-image: url(../img/bingo.png);
   }
 
   /* p8 페이드 버튼 */
@@ -4991,9 +4983,10 @@
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 100%;
     height: 50px;
     display: flex;
+    justify-content: center;
     gap: 10px;
     align-items: center;
     z-index: 10;
@@ -5001,7 +4994,7 @@
 
   .p8_button li {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 30px;
     height: 3px;
     transition: 0.5s;
@@ -7158,34 +7151,25 @@
     display: none;
   }
   .p8_panel .bg1 {
-    background-image: url(../img/illust_img1.png);
+    background-image: url(../img/todo.png);
     display: block;
   }
   .p8_panel .bg2 {
-    background-image: url(../img/illust_img1_t2.png);
+    background-image: url(../img/day.png);
   }
   .p8_panel .bg3 {
-    background-image: url(../img/illust_img1_t3.png);
+    background-image: url(../img/bingo.png);
   }
-  .p8_panel .bg4 {
-    background-image: url(../img/illust_img1.png);
-  }
-  .p8_panel .bg5 {
-    background-image: url(../img/illust_img1_t2.png);
-  }
-  .p8_panel .bg6 {
-    background-image: url(../img/illust_img1_t3.png);
-  }
-
   /* p8 페이드 버튼 */
   .p8_button {
     position: absolute;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 100%;
     height: 50px;
     display: flex;
+    justify-content: center;
     gap: 10px;
     align-items: center;
     z-index: 10;
@@ -7193,7 +7177,7 @@
 
   .p8_button li {
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 30px;
     height: 3px;
     transition: 0.5s;
