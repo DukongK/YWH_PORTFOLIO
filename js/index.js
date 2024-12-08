@@ -103,7 +103,7 @@ $(function () {
         i++;
       }
       fade();
-    }, 2000);
+    }, 3000);
   }
 
   function fade() {

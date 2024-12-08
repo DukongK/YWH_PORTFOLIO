@@ -1047,7 +1047,7 @@
     top: 0px;
   }
   .p4_img {
-    background-image: url(../img/d_1.png);
+    background-image: url(../img/amusic.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1325,7 +1325,7 @@
   }
 
   .p5_img {
-    background-image: url(../img/d_2.png);
+    background-image: url(../img/camping.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1610,7 +1610,7 @@
   }
 
   .p6_img {
-    background-image: url(../img/d_3.png);
+    background-image: url(../img/d_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1894,7 +1894,7 @@
   }
 
   .p7_img {
-    background-image: url(../img/d_4.png);
+    background-image: url(../img/d_2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2151,7 +2151,31 @@
     color: #999;
   }
 
-  /* p8 자동페이드 테스트 */
+  /* p8 자동페이드 */
+
+  /* 링크 추가 */
+
+  .ilust_box a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .ilust_box p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .con7 {
     position: relative;
     height: 900px;
@@ -3828,7 +3852,7 @@
     top: 0px;
   }
   .p4_img {
-    background-image: url(../img/d_1.png);
+    background-image: url(../img/amusic.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4106,7 +4130,7 @@
   }
 
   .p5_img {
-    background-image: url(../img/d_2.png);
+    background-image: url(../img/camping.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4391,7 +4415,7 @@
   }
 
   .p6_img {
-    background-image: url(../img/d_3.png);
+    background-image: url(../img/d_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4675,7 +4699,7 @@
   }
 
   .p7_img {
-    background-image: url(../img/d_4.png);
+    background-image: url(../img/d_2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -6611,7 +6635,7 @@
 
   /* mo4_box1 */
   .mo4_img {
-    background-image: url(../img/d_1.png);
+    background-image: url(../img/amusic.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -6742,7 +6766,7 @@
 
   /* mo5_box1 */
   .mo5_img {
-    background-image: url(../img/d_2.png);
+    background-image: url(../img/camping.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -6872,7 +6896,7 @@
 
   /* mo6_box1 */
   .mo6_img {
-    background-image: url(../img/d_3.png);
+    background-image: url(../img/d_1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7003,7 +7027,7 @@
 
   /* mo7_box1 */
   .mo7_img {
-    background-image: url(../img/d_4.png);
+    background-image: url(../img/d_2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
