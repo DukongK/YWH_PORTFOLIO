@@ -93,10 +93,6 @@ $(function () {
     let total = $(".p8_panel li").length;
     console.log(total);
     let i = 0;
- 
-
-
-
 
     start();
     function start() {
@@ -310,6 +306,28 @@ $(function () {
     $(".close").on("click", function () {
         $(".mod3").hide(10);
     });
+
+    // 사이트 기획안 모달창
+
+
+    // A뮤직
+    $(".p4_but1").on("click",function(){
+        $(".p4_modal").fadeToggle();
+    });
+    $(".p4_close").on("click", function () {
+        $(".p4_modal").hide(10);
+    });
+
+
+    // 캠핑
+    $(".p5_but1").on("click",function(){
+        $(".p5_modal").fadeToggle();
+    });
+    $(".p5_close").on("click", function () {
+        $(".p5_modal").hide(10);
+    });
+
+
 
     // 스크롤 할 때 navi 변경되는 속도
     // baseline 을 위로 선언해야한다

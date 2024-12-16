@@ -1049,9 +1049,9 @@
   .p4_img {
     background-image: url(../img/amusic.png);
     background-repeat: no-repeat;
-    background-position: 250%;
+    background-position:center;
     background-size: cover;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     /* position: relative; */
     transform: scale(1.3);
@@ -1154,7 +1154,7 @@
   }
 
   /* hover */
-  .p4_but1 a {
+  .p5_but1 .p5_design {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -1311,6 +1311,53 @@
     color: #999;
   }
 
+
+  /* p4 모달창 */
+   
+
+  .pc4none{
+    position: relative;
+   }
+
+   .p4_modal{display:none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100vh;
+   position: absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+
+    
+  }
+  .p4_list_box{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    height:100vh;
+    background-color: #222;
+  }
+
+  .p4_modalimg img{
+    width:100%;
+    
+  }
+
+
+  .p4_close{
+    cursor: pointer;
+    position: absolute;
+    right:0px;
+    top:0px;
+  }
+
+
+
+
   /* page5 web site 스토리타코 */
 
   .p5_wrap {
@@ -1327,6 +1374,7 @@
   .p5_wrap.on {
     transform: translateY(0px);
     opacity: 1;
+   
   }
 
   .p5_img {
@@ -1442,7 +1490,7 @@
   }
 
   /* hover */
-  .p5_but1 a {
+  .p5_but1 .p5_design {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -1596,6 +1644,49 @@
   }
   .p5_longbar span {
     color: #999;
+  }
+
+
+   /* p5 모달창 */
+   
+
+   .pc5none{
+    position: relative;
+   }
+
+   .p5_modal{display:none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100vh;
+   position: absolute;
+   left:0px;
+   top:0px;
+
+    
+  }
+  .p5_list_box{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    height:100vh;
+    background-color: #222;
+  }
+
+  .p5_modalimg img{
+    width:100%;
+    
+  }
+
+
+  .p5_close{
+    cursor: pointer;
+    position: absolute;
+    right:0px;
+    top:0px;
   }
 
   /* page6 web site 디퓨저 */
@@ -4479,7 +4570,7 @@
   }
 
   /* hover */
-  .p4_but1 a {
+  .p4_but1 .p4_design {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -4630,7 +4721,51 @@
     color: #999;
   }
 
-  /* page5 web site 스토리타코 */
+
+   /* p4 모달창 */
+   
+
+   .pc4none{
+    position: relative;
+   }
+
+   .p4_modal{display:none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100vh;
+   position: absolute;
+   left:50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+
+    
+  }
+  .p4_list_box{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:800px;
+    height:100vh;
+    background-color: #222;
+  }
+
+  .p4_modalimg img{
+    width:100%;
+    
+  }
+  
+  .p4_close{
+    cursor: pointer;
+    position: absolute;
+    right:0px;
+    top:0px;
+  }
+
+
+  /* page5 web site  */
 
   .p5_wrap {
     transform: translateY(80px);
@@ -4761,7 +4896,7 @@
   }
 
   /* hover */
-  .p5_but1 a {
+  .p5_but1 .p5_design {
     width: 100%;
     height: 100%;
     display: inline-block;
@@ -4910,6 +5045,51 @@
   .p5_longbar span {
     color: #999;
   }
+
+     /* p5 모달창 */
+   
+
+     .pc5none{
+        position: relative;
+       }
+    
+       .p5_modal{display:none;
+        background-color: rgba(0, 0, 0, 0.5);
+        width:100%;
+        height:100vh;
+       position: absolute;
+       left:0px;
+       top:0px;
+    
+        
+      }
+      .p5_list_box{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        width:800px;
+        height:100vh;
+        background-color: #222;
+      }
+    
+      .p5_modalimg img{
+        width:100%;
+        
+      }
+    
+    
+      .p5_close{
+        cursor: pointer;
+        position: absolute;
+        right:0px;
+        top:0px;
+      }
+
+
+ 
 
   /* page6 web site 디퓨저 */
 
