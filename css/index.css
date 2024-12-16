@@ -7960,6 +7960,54 @@ color: #222;
     color: #999;
   }
 
+  /* p4 모바일 모달창 */
+
+  .mobile_page4 {
+    position: relative;
+  }
+
+  .p4_modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+    position: fixed;
+  }
+  .p4_list_box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+  }
+
+  .p4_modalimg img {
+    width: 100%;
+  }
+
+  .p4_close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    z-index: 9999;
+  }
+
+  .p4_design p {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
   /* mo5_wrap */
   .mo5_wrap {
     overflow-y: hidden;
@@ -8088,6 +8136,54 @@ color: #222;
     left: 50%;
     bottom: 5%;
     transform: translate(-50%, -0%);
+  }
+
+  /* p5 모바일 모달창 */
+
+  .mobile_page5 {
+    position: relative;
+  }
+
+  .p5_modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: 9999;
+    position: fixed;
+  }
+  .p5_list_box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+  }
+
+  .p5_modalimg img {
+    width: 100%;
+  }
+
+  .p5_close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    z-index: 9999;
+  }
+
+  .p5_design p {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
   }
 
   /* mo6_wrap */
