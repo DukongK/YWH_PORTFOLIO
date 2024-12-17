@@ -329,7 +329,7 @@ $(function () {
 
 
 
-    // 스크롤 할 때 navi 변경되는 속도
+    // 스크롤 할 때 변경되는 속도
     // baseline 을 위로 선언해야한다
     let baseline = -650;
     let con1 = $(".con0").offset().top + baseline;

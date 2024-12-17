@@ -2391,11 +2391,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     width: 100%;
-    height: 100%;
-    /* position: relative;
-    z-index: 20; */
-    position: fixed;
+    height: 100vh;
   }
+
 
   .todo_bg {
     background-repeat: no-repeat;
@@ -3021,7 +3019,7 @@
   /* 모달창 */
   .p9_modal {
     z-index: 150;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -6304,7 +6302,6 @@ color: #222;
     width: 1160px;
     margin: 50px auto;
     overflow: hidden;
-
     position: relative;
     /* left: 50%;
     top: 50%;
@@ -8447,7 +8444,7 @@ color: #222;
     transform: translate(-50%, -0%);
   }
 
-  /* p8 자동페이드 테스트 */
+  /* p8 자동페이드 */
   .con7 {
     position: relative;
     height: 500px;
@@ -8549,7 +8546,7 @@ color: #222;
   .javascript_txt {
     position: absolute;
     left: 50px;
-    bottom: 100px;
+    bottom: 180px;
   }
   .script_ul li {
     position: absolute;
@@ -8567,11 +8564,53 @@ color: #222;
   .mod3 {
     display: none;
   }
-  .p8_btn1,
+  /* .p8_btn1,
   .p8_btn2,
   .p8_btn3 {
     display: none;
-  }
+  } */
+
+    /* 링크 추가 */
+    .ilust_box .p8_btn1,.p8_btn2,.p8_btn3 {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 250px;
+      height: 60px;
+      position: absolute;
+      left: 50%;
+      bottom: 0%;
+      transform: translate(-50%, 0%);
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      z-index: 10;
+      color: #fff;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+  
+    .ilust_box .p8_btn1:hover,.p8_btn2:hover,.p8_btn3:hover {
+      background-color: #fff;
+      color: #ff0000;
+    }
+  
+    .p8_btn1 p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .p8_btn2 p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .p8_btn3 p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
 
   /* con8--------------자동슬라이드 */
   .con8 {
